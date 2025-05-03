@@ -77,7 +77,7 @@ const Footer = () => {
               <span className="font-semibold text-sm mr-2">English (US)</span>
             </div>
             <div className="flex items-center">
-              <span className="font-semibold text-sm mr-2">$ USD</span>
+              <span className="font-semibold text-sm mr-2">₹ INR</span>
             </div>
           </div>
         </div>

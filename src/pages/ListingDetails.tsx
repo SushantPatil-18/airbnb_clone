@@ -220,7 +220,7 @@ const ListingDetails = () => {
             <Card className="p-6 shadow-lg sticky top-24">
               <div className="flex justify-between items-start mb-6">
                 <div>
-                  <span className="text-xl font-semibold">${listing.pricePerNight}</span>
+                  <span className="text-xl font-semibold">₹{listing.pricePerNight}</span>
                   <span className="text-gray-600"> night</span>
                 </div>
                 <div className="flex items-center">
@@ -274,16 +274,16 @@ const ListingDetails = () => {
               
               <div className="space-y-3">
                 <div className="flex justify-between">
-                  <span className="underline">${listing.pricePerNight} x 5 nights</span>
-                  <span>${listing.pricePerNight * 5}</span>
+                  <span className="underline">₹{listing.pricePerNight} x 5 nights</span>
+                  <span>₹{listing.pricePerNight * 5}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="underline">Cleaning fee</span>
-                  <span>$85</span>
+                  <span>₹85</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="underline">Service fee</span>
-                  <span>$125</span>
+                  <span>₹125</span>
                 </div>
               </div>
               
@@ -291,7 +291,7 @@ const ListingDetails = () => {
               
               <div className="flex justify-between font-semibold">
                 <span>Total before taxes</span>
-                <span>${listing.pricePerNight * 5 + 85 + 125}</span>
+                <span>₹{listing.pricePerNight * 5 + 85 + 125}</span>
               </div>
             </Card>
           </div>

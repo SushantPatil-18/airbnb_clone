@@ -85,7 +85,7 @@ const ListingCard = ({ listing }: ListingCardProps) => {
         <p className="text-airbnb-light text-sm mt-1">{listing.type}</p>
         <p className="text-airbnb-light text-sm">{listing.dates.startDate} - {listing.dates.endDate}</p>
         <p className="mt-1">
-          <span className="font-semibold">${listing.pricePerNight}</span> night
+          <span className="font-semibold">₹{listing.pricePerNight}</span> night
         </p>
       </div>
     </Link>
