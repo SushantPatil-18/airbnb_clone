@@ -57,7 +57,7 @@ const Map = ({ listings, selectedListing }: MapProps) => {
                   ${isSelected ? 'bg-airbnb-red text-white' : 'bg-white text-airbnb-dark'}
                 `}
               >
-                ${listing.pricePerNight}
+                ₹{listing.pricePerNight}
               </div>
             </div>
           );
